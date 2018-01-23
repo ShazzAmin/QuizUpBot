@@ -2,7 +2,7 @@ QuizUp Bot
 ==========
 *by Shazz Amin*
 
-Bot that plays QuizUp games through the web application (now discontinued). **Created purely for educational purposes.**
+Bot that plays QuizUp games through the offical web app (now discontinued). **Created purely for educational purposes.**
 
 ### Features
 * Fully automated; doesn't require any oversight after initial set-up
@@ -19,17 +19,17 @@ Example of a bots file:
 [
     {
         "topicIdentifier": "logos",
-        "sessionCookie": "<`web_session` cookie>"
+        "sessionCookie": "<web_session cookie>"
     },
     {
         "topicIdentifier": "_fcb485a6-cf0f-439f-906e-804bb304b8a2",
-        "sessionCookie": "<`web_session` cookie>"
+        "sessionCookie": "<web_session cookie>"
     }
 ]
 ```
 
 ### Run
 ###### Pre-requisites:
-* Node.js (>=8.9.4)
+* Node.js (>= 8.9.4)
 
 `node start.js [botsFile]`
