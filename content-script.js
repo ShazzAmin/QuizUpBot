@@ -20,7 +20,7 @@ module.exports = function(){
 			}
 			else
 			{
-				get(selector, callback);
+				get(selector, callback, doesMeetCondition);
 			}
 		}.bind(this), 100);
 	}
@@ -28,8 +28,8 @@ module.exports = function(){
 	/*
 		Keeps getting an element (specified by `selector`) until it meets a condition (specified by `shouldStop`).
 		`callback` is called repeatedly with the element as the only argument.
-		`shouldStop` is called repeatedly with the element as the onyl argument. It should return true if `callback` should stop being called, false otherwise.
-		`delay` (optional) specified the time (in milliseconds) to wait between calling `callback`.
+		`shouldStop` is called repeatedly with the element as the only argument. It should return true if `callback` should stop being called, false otherwise.
+		`delay` (optional; default: 100) specified the time (in milliseconds) to wait between calling `callback`.
 	*/
 	function getUntil(selector, callback, shouldStop, delay)
 	{
