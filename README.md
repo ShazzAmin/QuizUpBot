@@ -29,7 +29,7 @@ Example of a bots file:
 ```
 
 ### Run
-###### Pre-requisites:
+###### Prerequisites:
 * Node.js (>= 8.9.4)
 
 `node start.js [botsFile]`
