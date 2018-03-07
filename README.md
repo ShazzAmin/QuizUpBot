@@ -2,7 +2,7 @@ QuizUp Bot
 ==========
 *by Shazz Amin*
 
-Bot that plays QuizUp games through the offical web app (now discontinued). **Created purely for educational purposes.**
+Self-learning bot that plays QuizUp games through the offical web app (now discontinued). **Created purely for educational purposes.**
 
 ### Features
 * Fully automated; doesn't require any oversight after initial set-up
